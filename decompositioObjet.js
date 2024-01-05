@@ -1,4 +1,4 @@
-// Decomposition d'objet
+// Decomposition d'objet// Decomposition d'objet
 //l'opérateur de décomposition le spray operator (...)
 
 
