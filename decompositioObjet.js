@@ -1,5 +1,5 @@
 // Decomposition d'objet// Decomposition d'objet
-//l'opérateur de décomposition le spray operator (...)
+//l'opérateur de décomposition le spread operator (...)
 
 
 const nombres = [25, 12, 8];
@@ -46,3 +46,28 @@ prenom: "Benoit"
 const profil = { ...nom, ...prenom};
 
 console.log(profil);
+
+// Exemple pour les OBJET
+
+
+
+const defaultPerson = {
+    firstname: "UNDEFINED",
+    lastname: "UNDEFINED",
+    age: 18
+}
+
+const user= {
+...defaultPerson
+}
+
+console.log(user);
+
+const user2= {
+...defaultPerson,
+firstname: 'John',
+age:16
+
+}
+
+console.log(user2);
