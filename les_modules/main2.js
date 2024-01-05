@@ -4,7 +4,7 @@
 
 import maFonction from './baseFuncs.js';
 
-maFonction(15, 5);
+maFonction(5, 5)
 
 
 
