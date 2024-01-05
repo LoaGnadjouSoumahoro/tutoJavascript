@@ -2,9 +2,9 @@
 
 //pour l'export exemple default
 
-import maFonction from './baseFuncs.js';
+// import maFonction from './baseFuncs.js';
 
-maFonction(5, 5)
+// maFonction(15, 5)
 
 
 
